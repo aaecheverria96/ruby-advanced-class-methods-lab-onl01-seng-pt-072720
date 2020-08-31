@@ -40,17 +40,17 @@ new_song.name = song_name
 new_song.artist_name = artist_name
 new_song
 
-end 
+end
 
-def self.create_from_filename (filename) 
-  song_parts = filename.split(" - ") 
-  song_name = song_parts[-1] 
-  artist_name = song_parts[0] 
-  new_song = Song.new 
-  new_song.name = song_name 
-  new_song.artist_name = artist_name 
-  new_song 
-end 
+def self.create_from_filename (filename)
+  song_parts = filename.split(" - ")
+  song_name = song_parts[-1]
+  artist_name = song_parts[0]
+  new_song = Song.new
+  new_song.name = song_name
+  new_song.artist_name = artist_name
+  new_song
+end
 
 
   def self.create
