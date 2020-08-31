@@ -38,7 +38,7 @@ artist_name = song_parts[0]
 new_song = Song.new
 new_song.name = song_name
 new_song.artist_name = artist_name
-
+new_song
 
 end
 
